@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+:root{
+    --primary-color:green;
+}
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+hr{
+    margin:1rem 0rem;
 }
 
 /*container*/
@@ -12,4 +19,17 @@ body{
 .container-centre{
     max-width:300px;
     margin:auto;
+}
+
+/*links*/
+.primary_link{
+    color:var(--primary-color);
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem; /*top-bottom right-left shortform*/
+}
+.link2{
+    background-color: yellow;
+    border-radius: 0.5rem;
 }
