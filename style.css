@@ -1,16 +1,15 @@
-/*this is the third way of doing css, in external link*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
-    color:rgb(255, 0, 234)
+    font-family: 'Roboto', sans-serif;
 }
-h1{
-    color:blue
+
+/*container*/
+.container{
+    padding-left:1rem;
+    padding-right:1rem;
 }
-h2{
-    color:brown
-}
-#lib-header{
-    color:goldenrod
-}
-.para{
-    color:navy
+.container-centre{
+    max-width:300px;
+    margin:auto;
 }
