@@ -11,6 +11,10 @@
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    max-width: 100%;
+    width: relative;
+    text-decoration: none;
 }
 .navLink a:link{
     text-decoration: none;
@@ -35,6 +39,7 @@
 .listItem{
     display:inline;
     padding-left: 1rem;
+    padding-top: 1rem;
 }
 nav{
     display: block;
@@ -98,6 +103,9 @@ body{
 }
 .fa-twitter:before {
     content: "\f099";
+}
+.fa-smile-wink:before {
+    content: "\f4da";
 }
 element.style {
     color: black;
