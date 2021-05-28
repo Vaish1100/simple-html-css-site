@@ -3,8 +3,10 @@
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>Vaishnavi's Page</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav class="navBar">
@@ -12,7 +14,7 @@
             <a style="text-transform: uppercase;" class="linkActive" href="/">Alladi Vaishnavi</a>
         </div>
         <ul class="navRight listNonbullet">
-            <li class="listItem navLink"> <a class="linkActive" href="/"> Home </a> </li>
+            <li class="listItem navLink"> <a class="linkActive" href="#About"> About </a> </li>
             <li class="listItem navLink"> <a class="linkActive" href="#Projects"> Projects </a></li>
             <li class="listItem navLink"> <a class="linkActive" href="#Blogs"> Blogs </a> </li>
             <li class="listItem navLink"> <a class="linkActive" href="#Contact"> Contact </a> </li>
@@ -20,18 +22,14 @@
     </nav>
     <br>
     <header>
-        <img style="display: block; margin: auto;" src="images/main.svg">
+        <img style="display: block; margin: auto; max-width: 100%;" src="images/main.svg">
         <br>
-        <div style="display: block; margin: auto; text-align: center;">
-        <a class="boxy boxy1" href="https://github.com/Vaishnavi1100" target="_blank">View me on Github</a>
-        <a class="boxy boxy1" href="https://www.linkedin.com/in/vaishnavi-alladi/" target="_blank">View me on LinkedIn</a>
-        </div>
     </header>
-    <br>
+    <br><hr>
     <div class="secClass" style="background-color:rgb(255, 247, 238);">
-        <h2 style="color: black;">About Me</h2>
+        <h2 id="About" style="color: black;">About Me</h2>
         <p style="max-width: 60%; text-align: centre; margin: auto ;">
-            <span style="color: #1da607;font-weight: bold;"> Hey there! I am Alladi Vaishavi. </span>
+            <span style="color: #1da607;font-weight: bold;"> Hey there! I am Alladi Vaishnavi. </span>
             <br>
             I am an undergraduate student pursuing dual majors of M.Sc.Economics and B.E. Electrical and Electronics Engineering at BITS Pilani, Pilani Campus. 
         </p>
@@ -63,7 +61,23 @@
             Coming Soon...
         </p>
     </div>
-    <footer id="Contact">
+    <br><hr>
+    <footer class="secClass" style="background-color:rgb(255, 247, 238);"">
+        <h2 id="Contact" style="color: black;">My Social Profile</h2>
+        <div style="display: block; margin: auto; text-align: center; padding-top: 1rem;">
 
+            <a class="boxy boxy1 fa fa-mail tooltip" href="mailto: a.vaishnavi123@gmail.com" target="_blank" style="color: black;"><span class="tooltiptext">a.vaishnavi123@gmail.com <br> or<br> f20180787@pilani.bits-pilani.ac.in</span></a>
+
+            <a class="boxy boxy1 fa fa-linkedin tooltip" href="https://www.linkedin.com/in/vaishnavi-alladi" target="_blank" style="color: black;"><span class="tooltiptext">linkedin.com/in/vaishnavi-alladi</span></a>
+
+            <a class="boxy boxy1 fa fa-phone tooltip" style="color: black;"><span class="tooltiptext">9700144555</span></a>
+
+            <a class="boxy boxy1 fa fa-github tooltip" href="https://github.com/Vaishnavi1100" target="_blank" style="color: black;"><span class="tooltiptext">github.com/Vaishnavi1100</span></a>
+
+            <a class="boxy boxy1 fa fa-twitter tooltip" href="https://twitter.com/vaish1100" target="_blank" style="color: black;"><span class="tooltiptext">twitter.com/vaish1100</span></a>
+
+            <a class="boxy boxy1 fa fa-map-marker tooltip" style="color: black;"><span class="tooltiptext">Hyderabad, Telangana</span></a>
+
+        </div>
     </footer>
 </body></html>
