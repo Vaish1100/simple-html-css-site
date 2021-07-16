@@ -1,3 +1,3 @@
 Visit this link to see the site: 
-https://vaishnavi1100.github.io/simple-html-css-site/
+https://vaish1100.github.io/simple-html-css-site/
 
